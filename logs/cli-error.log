@@ -1,0 +1,165 @@
+2015-12-18 08:25:29 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Serve" could not be found.
+Exception Attributes: array (
+  'class' => 'Serve',
+)
+Stack Trace:
+#0 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('serve')
+#1 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\hotelportal.com\apanel\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-01-11 08:42:04 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Backe" could not be found.
+Exception Attributes: array (
+  'class' => 'Backe',
+)
+Stack Trace:
+#0 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('backe')
+#1 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\hotelportal.com\apanel\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-01-12 07:45:04 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Back" could not be found.
+Exception Attributes: array (
+  'class' => 'Back',
+)
+Stack Trace:
+#0 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('back')
+#1 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\hotelportal.com\apanel\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-01-14 10:27:17 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotelportal_apanel.nearbyfeatures' doesn't exist
+Stack Trace:
+#0 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'nearbyfeatures', Array, Object(Cake\Database\Schema\Table))
+#1 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('nearbyfeatures', Array)
+#2 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('nearbyfeatures')
+#3 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Nearbyfeatures')
+#7 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Nearbyfeatures')
+#8 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('nearbyfeatures', 0)
+#9 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('nearbyfeatures')
+#11 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\Shell.php(436): call_user_func_array(Array, Array)
+#12 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\hotelportal.com\apanel\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-01-14 10:32:28 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotelportal_apanel.thingstodo' doesn't exist
+Stack Trace:
+#0 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'thingstodo', Array, Object(Cake\Database\Schema\Table))
+#1 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('thingstodo', Array)
+#2 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('thingstodo')
+#3 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Thingstodo')
+#7 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Thingstodo')
+#8 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('thingstodo', 0)
+#9 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('thingstodo')
+#11 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\Shell.php(436): call_user_func_array(Array, Array)
+#12 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\hotelportal.com\apanel\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-01-14 12:55:49 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotelportal_apanel.resortss' doesn't exist
+Stack Trace:
+#0 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'resortss', Array, Object(Cake\Database\Schema\Table))
+#1 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('resortss', Array)
+#2 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('resortss')
+#3 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Resortss')
+#7 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Resortss')
+#8 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('resortss', 0)
+#9 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('resortss')
+#11 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\Shell.php(436): call_user_func_array(Array, Array)
+#12 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\hotelportal.com\apanel\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-02-03 11:07:44 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotelportal_apanel.programsgroups' doesn't exist
+Stack Trace:
+#0 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'programsgroups', Array, Object(Cake\Database\Schema\Table))
+#1 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('programsgroups', Array)
+#2 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('programsgroups')
+#3 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Programsgroups')
+#7 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Programsgroups')
+#8 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('programsgroups', 0)
+#9 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('programsgroups')
+#11 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\Shell.php(436): call_user_func_array(Array, Array)
+#12 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\hotelportal.com\apanel\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-02-03 11:07:59 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hotelportal_apanel.programsgroups' doesn't exist
+Stack Trace:
+#0 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'programsgroups', Array, Object(Cake\Database\Schema\Table))
+#1 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('programsgroups', Array)
+#2 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('programsgroups')
+#3 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Programsgroups')
+#7 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Programsgroups')
+#8 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('programsgroups', 0)
+#9 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\bake\src\Shell\BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('programsgroups')
+#11 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\Shell.php(436): call_user_func_array(Array, Array)
+#12 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\hotelportal.com\apanel\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-02-07 04:26:00 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Backe" could not be found.
+Exception Attributes: array (
+  'class' => 'Backe',
+)
+Stack Trace:
+#0 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('backe')
+#1 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\hotelportal.com\apanel\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-02-07 04:27:35 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Backe" could not be found.
+Exception Attributes: array (
+  'class' => 'Backe',
+)
+Stack Trace:
+#0 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(209): Cake\Console\ShellDispatcher->findShell('backe')
+#1 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\hotelportal.com\apanel\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\hotelportal.com\apanel\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
