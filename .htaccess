@@ -1,5 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
+    #RewriteCond %{HTTP_HOST} ^admin\.purastays\.com$
     RewriteRule    ^$    webroot/    [L]
     RewriteRule    ^(phpmyadmin)($|/) - [L]
     RewriteRule    (.*) webroot/$1    [L]
